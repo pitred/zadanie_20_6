@@ -5,10 +5,10 @@ div li {
 }
 
 button {
-    background: yellow;
+    background: red;
     margin-left: 10px;
     border: none;
     border-radius: 5px;
-    padding: 10px 14px;
+    padding: 5px 10px;
     font-size: 14px;
 }

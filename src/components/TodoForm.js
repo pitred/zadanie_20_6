@@ -20,8 +20,8 @@ class TodoForm extends React.Component {
    render() {
       return (
          <form onSubmit={this.addTodo.bind(this)}>
-            Task: <input value={this.state.todoName} onChange={this.updateTodoName.bind(this)} type='text' />
             <input type='submit' value='Add Task' />
+            <input value={this.state.todoName} onChange={this.updateTodoName.bind(this)} type='text' />
          </form>
       );
    }

@@ -12,7 +12,7 @@ const TodoList = props => {
                   onClick={() => {
                      props.remove(task.id);
                   }}>
-                  Delete{' '}
+                  Done{' '}
                </button>{' '}
                {task.text}
             </li>
