@@ -1,0 +1,14 @@
+div li {
+    list-style: none;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+button {
+    background: yellow;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 14px;
+    font-size: 14px;
+}
